@@ -6,7 +6,7 @@ class prime():
         return True
 if __name__ == "__main__":
     obj=prime()
-    num =int(input("enter a number "))
+    num =7
     if obj.isprime(num):
         print(num,"is prime number")
     else:
